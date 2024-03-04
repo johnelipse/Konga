@@ -1,0 +1,109 @@
+.get-products {
+  position: sticky;
+  background-color: #ff0076;
+  padding: 0.57rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .similar {
+    display: flex;
+    gap: 1rem;
+  }
+  .middle {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    input {
+      width: 96%;
+      font-size: 13px;
+      padding-right: 8rem;
+      padding: 0.3rem 1rem;
+    }
+    label {
+      background-color: #ff9c00;
+      color: white;
+      align-items: center;
+      padding: 0.31rem 1rem;
+    }
+  }
+  .button {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #00a978;
+    color: white;
+    display: flex;
+    p {
+      background-color: $primary-color;
+      color: black;
+      padding: 0.2rem;
+      font-size: 14px;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .get-products {
+    display: none;
+    // position: sticky;
+    // background-color: $primary-color;
+    // padding: 0.57rem 1rem;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // a {
+    //   text-decoration: none;
+    //   color: white;
+    // }
+    // .similar {
+    //   display: flex;
+    //   gap: 1rem;
+    // }
+    // .right{
+    //   display: none;
+    // }
+    // .konga{
+    //   display: none;
+    // }
+    .middle {
+      display: none;
+      // display: flex;
+      // width: 40%;
+      // align-items: center;
+      // justify-content: center;
+      // input {
+      //   width: 96%;
+      //   font-size: 13px;
+      //   padding-right: 8rem;
+      //   padding: 0.3rem 1rem;
+      // }
+      // label {
+      //   background-color: #ff9c00;
+      //   color: white;
+      //   align-items: center;
+      //   padding: 0.31rem 1rem;
+      // }
+    }
+    .button {
+      display: none;
+      // border-radius: 0.5rem;
+      // padding: 0.5rem 1rem;
+      // align-items: center;
+      // gap: 0.5rem;
+      // background-color: #00a978;
+      // color: white;
+      // display: flex;
+      // p {
+      //   background-color: $primary-color;
+      //   color: black;
+      //   padding: 0.2rem;
+      //   font-size: 14px;
+      // }
+    }
+  }
+}

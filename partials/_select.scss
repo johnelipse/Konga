@@ -1,0 +1,23 @@
+.select {
+  display: none;
+  //   display: flex;
+  //   padding: 2rem;
+  //   gap: 5rem;
+  //   justify-content: center;
+  //   p {
+  //     color: #a50049;
+  //   }
+}
+@media (max-width: 360px) {
+  .select {
+    display: block;
+    display: flex;
+    padding: 0.1rem 2rem;
+    gap: 5rem;
+    justify-content: center;
+    p {
+      color: #a50049;
+      font-size: 14px;
+    }
+  }
+}

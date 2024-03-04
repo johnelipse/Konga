@@ -1,0 +1,122 @@
+.products {
+  padding: 1rem 2rem;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+  }
+  .left-hand {
+    .search {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      .bx {
+        color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .result {
+        color: #a50049;
+      }
+      .home {
+        color: black;
+      }
+    }
+    h3 {
+      padding-top: 1rem;
+      font-size: 2rem;
+    }
+  }
+  .results {
+    color: gray;
+    text-align: end;
+    font-size: 12px;
+  }
+  .sort {
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 1.8rem;
+    .sorting {
+      font-size: 12px;
+    }
+    .high {
+      border: 1px solid gray;
+      padding: 0.1rem 0.3rem;
+      font-size: 13px;
+    }
+    .low {
+      font-size: 13px;
+      border: 1px solid #ff0076ff;
+      color: #ff0076ff;
+      padding: 0.1rem 0.5rem;
+    }
+  }
+}
+@media(max-width:360px){
+  .products {
+    padding: 0.1rem 2rem;
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    a {
+      text-decoration: none;
+    }
+    .left-hand {
+      .search {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        .bx {
+          display: none;
+          // color: gray;
+          // display: flex;
+          // align-items: center;
+          // justify-content: center;
+        }
+        .result {
+          display: none;
+          // color: #a50049;
+        }
+        .home {
+          display: none;
+          // color: black;
+        }
+      }
+      h3 {
+        padding-top: 0rem;
+        font-size: 1.3rem;
+      }
+    }
+    .results {
+      color: gray;
+      text-align: end;
+      font-size: 12px;
+    }
+    .sort {
+      display: flex;
+      gap: 0.5rem;
+      padding-top: 1.8rem;
+      .sorting {
+        display: none;
+        // font-size: 12px;
+      }
+      .high {
+        display: none;
+        // border: 1px solid gray;
+        // padding: 0.1rem 0.3rem;
+        // font-size: 13px;
+      }
+      .low {
+        display: none;
+        // font-size: 13px;
+        // border: 1px solid #ff0076ff;
+        // color: #ff0076ff;
+        // padding: 0.1rem 0.5rem;
+      }
+    }
+  } 
+}
